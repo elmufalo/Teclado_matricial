@@ -1,0 +1,5 @@
+este programa en aduino permite leer datos
+mediante la pulsacion de teclas
+de un teclado matricial
+Al presionar una tecla se almacena 
+en una varibale tipo char
