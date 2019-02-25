@@ -11,7 +11,7 @@ char Teclas [Filas][Cols]=
 {'7','8','9','C'},
 {'*','0','#','D'}
 };
-Keypad Teclado1 = Keypad (Makekeymap(teclas),.Pins_Filas,Pins_Cols,Filas,Cols);
+Keypad Teclado1 = Keypad (makeKeymap(teclas),Pins_Filas,Pins_Cols,Filas,Cols);
 
 void setup()
 {
